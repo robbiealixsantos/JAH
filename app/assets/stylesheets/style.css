@@ -1,0 +1,107 @@
+video#background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background: url("JAH-BACKGROUND.png") no-repeat;
+  background-size: cover;
+}
+
+#sidebar {
+    width: 150px;
+    position:absolute;
+    top:50px;
+    right:250px;
+    font-size: 100px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+    opacity: 0.55;
+}
+
+.dropdown-container {
+    width: 150px;
+    position:absolute;
+    top:180px;
+    right:280px;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+    opacity: 0.55;
+}
+
+ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+}
+
+li {
+    float: left;
+    width: 100px;
+    line-height: 80px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0;
+}
+
+li#contact {
+  position:absolute;
+  right:150px;
+  top: 240px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+#contact {
+  display: none;
+}
+
+input#un-mute {
+  display: none;
+}
+
+.unmute img {
+  display: none;
+}
+
+input#un-mute:checked ~ .unmute img {
+  display: initial;
+}
+
+input#un-mute:checked ~ .mute img {
+  display: none;
+}
+
+.mute {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  opacity: 0.55;
+}
+
+.unmute {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  opacity: 0.55;
+}
