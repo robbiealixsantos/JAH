@@ -11,18 +11,68 @@ video#background {
   background-size: cover;
 }
 
-input#un-mute {
-    display: none;
+#sidebar {
+    width: 150px;
+    position:absolute;
+    top:50px;
+    right:250px;
+    font-size: 100px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+    opacity: 0.55;
 }
 
-.unmute img {
-    display: none;
+.dropdown-container {
+    width: 150px;
+    position:absolute;
+    top:180px;
+    right:280px;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+    opacity: 0.55;
+
 }
 
-input#un-mute:checked ~ .unmute img {
-    display: initial;
+ul {
+    list-style: none;
+    float: right;
+    margin: 0;
 }
 
-input#un-mute:checked ~ .mute img {
-    display: none;
+li {
+    float: left;
+    width: 100px;
+    line-height: 80px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0;
+}
+
+li#contact {
+  position:absolute;
+  right:150px;
+  top: 240px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+#contact {
+  display: none;
 }
