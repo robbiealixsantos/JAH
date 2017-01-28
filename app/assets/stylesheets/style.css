@@ -16,23 +16,12 @@ video#background {
     position:absolute;
     top:50px;
     right:250px;
-    font-size: 100px;
-    font-weight: bold;
-    font-style: italic;
-    font-family: 'EB Garamond', serif;
-    opacity: 0.55;
 }
 
 .dropdown-container {
-    width: 150px;
     position:absolute;
-    top:180px;
-    right:280px;
-    font-size: 50px;
-    font-weight: bold;
-    font-style: italic;
-    font-family: 'EB Garamond', serif;
-    opacity: 0.55;
+    top: 170px;
+    right: 210px;
 }
 
 ul {
@@ -41,19 +30,14 @@ ul {
     margin: 0;
 }
 
-li {
-    float: left;
-    width: 100px;
-    line-height: 80px;
-    vertical-align: middle;
-    text-align: center;
-    margin: 0;
-}
-
 li#contact {
   position:absolute;
-  right:150px;
-  top: 240px;
+  top: 250px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'EB Garamond', serif;
+  opacity: 0.55;
+  font-size: 50px;
 }
 
 a:link {
@@ -104,4 +88,22 @@ input#un-mute:checked ~ .mute img {
   left: 0;
   bottom: 0;
   opacity: 0.55;
+}
+
+#shop-img {
+   width:200px;
+   float: right;
+   margin-top: 2px;
+}
+
+#instagram-img {
+   width:400px;
+   float: right;
+   margin-top: 30px;
+}
+
+#contact-img {
+   width:300px;
+   float: right;
+   margin-top: 20px;
 }
